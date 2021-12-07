@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".newFeed.NewFeedViewActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+            <Button
+                android:id="@+id/butChosun"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.25"
+                android:layout_marginLeft="3dp"
+                android:layout_marginRight="3dp"
+                android:onClick="Chosun"
+                android:text="@string/chosun" />
+
+            <Button
+                android:id="@+id/butJoongang"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.25"
+                android:layout_marginLeft="3dp"
+                android:layout_marginRight="3dp"
+                android:onClick="joongang"
+                android:text="@string/joongang" />
+
+            <Button
+                android:id="@+id/butJj"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="3dp"
+                android:layout_marginRight="3dp"
+                android:layout_weight="0.25"
+                android:onClick="jj"
+                android:text="@string/jj" />
+
+            <Button
+                android:id="@+id/butMk"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="3dp"
+                android:layout_marginRight="3dp"
+                android:layout_weight="0.25"
+                android:onClick="mk"
+                android:text="@string/mk" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:orientation="vertical"
+        android:layout_height="fill_parent">
+        <TextView
+            android:text="어떤 뉴스 피드를 찾고계세요?"
+            android:id="@+id/newFeedTv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="6dp"
+            android:textSize="16sp"
+            android:layout_gravity="center_vertical|center_horizontal"/>
+
+        <ListView
+            android:id="@+id/result"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+        </ListView>
+    </LinearLayout>
+</LinearLayout>

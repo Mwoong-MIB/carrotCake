@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">CarrotCake</string>
+    <string name="toDo">To do List</string>
+    <string name="newFeed">New Feed</string>
+    <string name="game">Hello Word</string>
+    <string name="save">저장</string>
+    <string name="time_start">일을 시작해볼까요?</string>
+    <string name="toDoTitle">할 일이 무엇인가요?</string>
+    <string name="desct">상세한 내용을 적어주세요</string>
+    <string name="due">언제까지 끝내야 하나요?</string>
+    <string name="mainTitle">Carrot Cake</string>
+    <string name="subTitle">일잘하는 사람들의 습관</string>
+    <string name="chosun">조선일보</string>
+    <string name="joongang">중앙일보</string>
+    <string name="mk">매일경제</string>
+    <string name="brunch">브런치</string>
+    <string name="jj">동아일보</string>
+    <string name="todayWord">I never dreamed about success, I worked for it.</string>
+    <string name="game2">Start</string>
+</resources>

@@ -1,0 +1,201 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/cool">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/helloSubtitletv1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical|center_horizontal"
+            android:layout_marginLeft="6dp"
+            android:layout_gravity="center"
+            android:text="I"
+            android:textColor="@color/white"
+            android:background="@color/cool"
+            android:textSize="26sp" />
+        <TextView
+            android:id="@+id/helloSubtitletv2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical|center_horizontal"
+            android:layout_marginLeft="6dp"
+            android:layout_gravity="center"
+            android:text="never"
+            android:textColor="@color/white"
+            android:background="@color/cool"
+            android:textSize="26sp" />
+        <TextView
+            android:id="@+id/helloSubtitletv3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical|center_horizontal"
+            android:layout_marginLeft="6dp"
+            android:layout_gravity="center"
+            android:text="dreamed"
+            android:textColor="@color/white"
+            android:background="@color/cool"
+            android:textSize="26sp" />
+        <TextView
+            android:id="@+id/helloSubtitletv4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical|center_horizontal"
+            android:layout_marginLeft="6dp"
+            android:layout_gravity="center"
+            android:text="about"
+            android:textColor="@color/white"
+            android:background="@color/cool"
+            android:textSize="26sp" />
+        <TextView
+            android:id="@+id/helloSubtitletv5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical|center_horizontal"
+            android:layout_marginLeft="6dp"
+            android:layout_gravity="center"
+            android:text="success,"
+            android:textColor="@color/white"
+            android:background="@color/cool"
+            android:textSize="26sp" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <TextView
+            android:id="@+id/helloSubtitletv6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical|center_horizontal"
+            android:layout_marginLeft="6dp"
+            android:layout_gravity="center"
+            android:text="I"
+            android:textColor="@color/white"
+            android:background="@color/cool"
+            android:textSize="26sp" />
+        <TextView
+            android:id="@+id/helloSubtitletv7"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical|center_horizontal"
+            android:layout_marginLeft="6dp"
+            android:layout_gravity="center"
+            android:text="Worked"
+            android:textColor="@color/white"
+            android:background="@color/cool"
+            android:textSize="26sp" />
+        <TextView
+            android:id="@+id/helloSubtitletv8"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical|center_horizontal"
+            android:layout_marginLeft="6dp"
+            android:layout_gravity="center"
+            android:text="for"
+            android:textColor="@color/white"
+            android:background="@color/cool"
+            android:textSize="26sp" />
+        <TextView
+            android:id="@+id/helloSubtitletv9"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical|center_horizontal"
+            android:layout_marginLeft="6dp"
+            android:layout_gravity="center"
+            android:text="it"
+            android:textColor="@color/white"
+            android:background="@color/cool"
+            android:textSize="26sp" />
+    </LinearLayout>
+
+
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/cool_light"
+        android:id="@+id/frame">
+        <TextView
+            android:id="@+id/hView1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            android:textColor="@color/heart"
+            android:text="I" />
+        <TextView
+            android:id="@+id/hView2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            android:textColor="@color/heart"
+            android:text="never" />
+        <TextView
+            android:id="@+id/hView3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            android:textColor="@color/heart"
+            android:text="dreamed" />
+        <TextView
+            android:id="@+id/hView4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            android:textColor="@color/heart"
+            android:text="about" />
+        <TextView
+            android:id="@+id/hView5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            android:textColor="@color/heart"
+            android:text="success" />
+        <TextView
+            android:id="@+id/hView6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            android:textColor="@color/heart"
+            android:text="I" />
+        <TextView
+            android:id="@+id/hView7"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            android:textColor="@color/heart"
+            android:text="worked" />
+        <TextView
+            android:id="@+id/hView8"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            android:textColor="@color/heart"
+            android:text="for" />
+        <TextView
+            android:id="@+id/hView9"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            android:textColor="@color/heart"
+            android:text="it" />
+
+    </FrameLayout>
+
+
+</LinearLayout>

@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/cool"
+    tools:context=".toDoList.ToDoListActivityView">
+
+    <FrameLayout
+        android:id="@+id/todo"
+        android:layout_width="match_parent"
+        android:layout_marginBottom="6dp"
+        android:layout_height="100dp">
+
+        <TextView
+            android:id="@+id/timeView"
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:gravity="center"
+            android:text="00:00:00"
+            android:textColor="@color/heart"
+            android:textSize="35sp"
+            android:textStyle="bold" />
+
+    </FrameLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="6dp"
+        android:orientation="horizontal">
+
+        <EditText
+            android:id="@+id/inputToDo"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:ems="10"
+            android:gravity="center"
+            android:hint=" 또 어떤일을 해치울까요?"
+            android:background="@color/white"
+            android:inputType="textMultiLine" />
+
+        <Button
+            android:id="@+id/btn_Save"
+            android:background="@color/white"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="5"
+            android:text="@string/save"
+            android:onClick="save"
+            app:backgroundTint="@color/carrot" />
+
+
+    </LinearLayout>
+
+    <FrameLayout
+        android:id="@+id/container"
+        android:layout_width="match_parent"
+        android:layout_height="367dp">
+
+    </FrameLayout>
+
+    <Button
+        android:id="@+id/timebutton"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_marginLeft="6dp"
+        android:layout_marginRight="6dp"
+        android:layout_marginTop="6dp"
+        android:layout_marginBottom="6dp"
+        android:layout_gravity="center_vertical|center_horizontal"
+        android:textStyle="bold"
+        android:backgroundTint="@color/heart"
+        android:text="@string/time_start" />
+
+</LinearLayout>

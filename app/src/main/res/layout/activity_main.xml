@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/cool"
+    tools:context=".MainActivityView">
+
+    <TextView
+        android:id="@+id/mainTitleTv"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="60dp"
+        android:layout_marginBottom="12dp"
+        android:textStyle="bold"
+        android:textColor="@color/heart"
+        android:textSize="26sp"
+        android:gravity="center"
+        android:text="@string/mainTitle" />
+
+    <TextView
+        android:id="@+id/mainSubtitletv"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="100dp"
+        android:textColor="@color/white"
+        android:textSize="16sp"
+        android:gravity="center"
+        android:text="@string/subTitle" />
+
+    <Button
+        android:id="@+id/btn_ToDo"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_marginLeft="6dp"
+        android:layout_marginRight="6dp"
+        android:layout_marginTop="6dp"
+        android:layout_marginBottom="6dp"
+        android:layout_gravity="center_vertical|center_horizontal"
+        android:textStyle="bold"
+        android:onClick="todolist"
+        android:text="@string/toDo" />
+
+    <Button
+        android:id="@+id/btn_NewFeed"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_marginLeft="6dp"
+        android:layout_marginRight="6dp"
+        android:layout_marginTop="6dp"
+        android:layout_marginBottom="6dp"
+        android:layout_gravity="center_vertical|center_horizontal"
+        android:textStyle="bold"
+        android:onClick="newsFeed"
+        android:text="@string/newFeed" />
+
+    <Button
+        android:id="@+id/btn_Game"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_marginLeft="6dp"
+        android:layout_marginRight="6dp"
+        android:layout_marginTop="6dp"
+        android:layout_marginBottom="6dp"
+        android:layout_gravity="center_vertical|center_horizontal"
+        android:textStyle="bold"
+        android:onClick="helloword"
+        android:text="@string/game" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="236dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical|center_horizontal"
+        app:srcCompat="@drawable/logo" />
+</LinearLayout>
